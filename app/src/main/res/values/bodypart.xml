@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="body_part_array">
+        <item>Choose body part</item>
+        <item>eyes</item>
+        <item>nose</item>
+        <item>ears</item>
+        <item>hands</item>
+        <item>legs</item>
+        <item>chest</item>
+    </string-array>
+</resources>

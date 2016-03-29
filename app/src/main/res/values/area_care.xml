@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="care_area_array">
+        <item>Select Area of Care</item>
+        <item>Cardiology</item>
+        <item>opthomology</item>
+        <item>otolaryngology</item>
+        <item>gynecology</item>
+        <item>gynecology</item>
+    </string-array>
+    </resources>

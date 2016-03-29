@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/rellay2">
+
+    <!--<Spinner
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:id="@+id/locations_spinner"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:hint="@string/enter_location"
+        android:padding="10dp"
+        android:background="@drawable/round_rect_shape" />-->
+
+   <!-- <AutoCompleteTextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/autocomplete"
+        android:textColorHint="#BDBDBD"
+        android:textSize="20sp"
+        android:hint="Choose Location"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:padding="10dp"
+        android:textColor="#000000"/>-->
+
+    <!--  <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/current_loc"
+          android:text="Current Location"
+          android:textSize="10sp"
+          android:textColor="#ffffff"
+          android:background="#19a0af"
+          android:layout_below="@+id/autocomplete"
+          android:layout_marginLeft="150dp" />-->
+    <!-- <EditText
+         android:layout_width="350dp"
+         android:layout_height="wrap_content"
+         android:id="@+id/addr"
+         android:layout_marginLeft="15dp"
+         android:padding="15dp"
+         android:layout_below="@+id/current_loc"/>-->
+    <!-- <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/latitude"
+         android:layout_marginLeft="15dp"
+         android:layout_below="@id/current_loc"
+         android:padding="5dp"/>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/longitude"
+         android:layout_marginLeft="15dp"
+         android:layout_below="@id/latitude"
+         android:padding="5dp" />-->
+    <!--<TextView
+        android:id="@+id/curr_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="current address"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:layout_marginTop="175dp"
+        android:layout_alignLeft="@+id/autocomplete"
+        android:layout_alignStart="@+id/autocomplete" />-->
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radius"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:max="10"
+        android:progressTint="@color/appBlue"
+        android:thumbTint="@color/appBlue"
+        android:indeterminate="false"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:id="@+id/min_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 km"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:layout_below="@id/seekBar1"
+        />
+    <TextView
+        android:id="@+id/max_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10km"
+        android:padding="5dp"
+        android:layout_below="@+id/seekBar1"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_below="@+id/min_spinner"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done"
+        android:text="Done"
+        android:background="#19a0af"
+        android:textColor="#ffffff"
+        android:onClick="sendMessage"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="150dp" />
+
+</RelativeLayout>

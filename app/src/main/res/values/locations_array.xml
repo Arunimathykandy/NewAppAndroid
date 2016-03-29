@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="locations_array">
+            <item>select location</item>
+            <item>Jalahalli,EAST</item>
+            <item>BEL circle</item>
+            <item>Hebbal</item>
+            <item>Yeshwanthpur</item>
+            <item>K R Puram</item>
+            <item>Kengeri</item>
+            <item>Marathahalli</item>
+            <item>NES Office,Yelahanka</item>
+            <item>Hesargatta</item>
+            <item>Malleswaram</item>
+        </string-array>
+    </resources>

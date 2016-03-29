@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_one"
+        android:text="Story Board Three"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Ok,Got it"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+        android:onClick="ButtonClicked"
+        android:id="@+id/ok_btn"/>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/radius"
+        android:textColor="#000000"
+        android:padding="15dp"
+        android:layout_marginTop="100dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:max="10"
+        android:progressTint="@color/appBlue"
+        android:thumbTint="@color/appBlue"
+        android:indeterminate="false"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/min_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 km"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:layout_below="@id/seekBar1"
+        android:layout_marginTop="180dp"
+        />
+    <TextView
+        android:id="@+id/max_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10km"
+        android:padding="5dp"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_below="@+id/min_spinner"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_rad"
+        android:text="Next"
+        android:background="#19a0af"
+        android:textColor="#ffffff"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="120dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/skip"
+        android:text="Skip"
+        android:background="#19a0af"
+        android:textColor="#ffffff"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp" />
+
+
+</FrameLayout>
